@@ -1,0 +1,28 @@
+.login-card {
+    padding: 20px;
+    font-size: 16px;
+    min-height: 464px;
+  }
+  
+  .login-card h1 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+
+  .login-submit {
+    margin-top: 60px;
+  }
+  
+  
+  @media (min-width: 576px) {
+    .login-card {
+      padding: 50px;
+    }
+  }

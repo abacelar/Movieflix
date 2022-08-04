@@ -1,0 +1,16 @@
+.movie-container {
+    padding: 12px;
+}
+
+.movie-container h1 {
+    color: #fff;
+}
+
+
+.movie-card {
+    padding: 10px;
+}
+
+.movie-card p {
+    color: #fff;
+}
