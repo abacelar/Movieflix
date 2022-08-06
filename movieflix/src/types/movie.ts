@@ -1,5 +1,6 @@
 import { Genre } from "./genre";
 
+
 export type Movie = {
     id: number;
     title: string;

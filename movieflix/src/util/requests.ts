@@ -81,7 +81,7 @@ export const removeAuthData = () => {
   localStorage.removeItem(tokenKey);
 };
 
-// Add a request interceptor
+
 axios.interceptors.request.use(
   function (config) {
     return config;
@@ -91,8 +91,8 @@ axios.interceptors.request.use(
   }
 );
 
-// Add a response interceptor
-axios.interceptors.response.use(
+ 
+ axios.interceptors.response.use(
   function (response) {
     return response;
   },
@@ -103,6 +103,7 @@ axios.interceptors.response.use(
     return Promise.reject(error);
   }
 );
+
 
 export const getTokenData = (): TokenData | undefined => {
   try {

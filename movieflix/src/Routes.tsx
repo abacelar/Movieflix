@@ -2,7 +2,7 @@ import { Switch, Route, Router } from 'react-router-dom'
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Movies from './pages/Movies';
-import MovieDetails from './pages/MoviesDetails';
+import ReviewsComponent from './pages/Reviews';
 import history from './util/history';
 
 
@@ -17,7 +17,7 @@ const Routes = () => (
         <Movies />
       </Route>
       <Route path="/movies/:moviesId">
-        <MovieDetails />
+        <ReviewsComponent />
       </Route>
     </Switch>
   </Router>

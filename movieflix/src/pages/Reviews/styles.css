@@ -1,0 +1,17 @@
+.movie-detail-container {
+    padding: 10px;
+}
+
+
+.movie-detail-container h1 {
+    color: #fff;
+}
+
+
+
+
+@media (min-width:1200px) {
+    .movie-detail-container {
+        padding: 40px;
+    }
+}

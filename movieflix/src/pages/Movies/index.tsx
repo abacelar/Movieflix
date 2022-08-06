@@ -38,7 +38,7 @@ const Movies = () => {
         {page?.content.map((movie)=> (
       
             <div className="movie-card" key={movie.id}>
-            <Link to="/movies/1">
+            <Link to={`/movies/${movie.id}`}>
               <MovieCard movie={movie} />
             </Link>
             </div>

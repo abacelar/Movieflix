@@ -16,6 +16,15 @@
     margin-bottom: 20px;
   }
 
+  .login-card input {
+    background: #ffffff;
+  }
+
+  .login-card input:focus {
+    background: #ffffff;
+  }
+
+
   .login-submit {
     margin-top: 60px;
   }
