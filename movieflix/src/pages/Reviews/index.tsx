@@ -1,7 +1,6 @@
 import { AxiosRequestConfig } from 'axios';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import ButtonIcon from '../../components/ButtonIcon';
 import ReviewCard from '../../components/ReviewCard';
 import ReviewForm from '../../components/ReviewForm';
 import { Review } from '../../types/review';
