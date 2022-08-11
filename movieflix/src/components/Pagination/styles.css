@@ -1,0 +1,57 @@
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination-item {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #6c6c6c;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: -0.015em;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.pagination-item.active {
+  background-color: #ffc700;
+}
+
+.pagination-link-active {
+  background-color: #ffc700;
+}
+
+.arrow-previous {
+  transform: rotate(-180deg);
+}
+
+.arrow-previous svg path {
+  stroke: #ffc700 !important;
+}
+
+.arrow-next {
+  margin-left: 10px;
+}
+
+.arrow-next svg path {
+  stroke: #ffc700 !important;
+}
+
+.arrow-inactive svg path {
+  stroke: #9e9e9e !important;
+}
+
+.arrow-active svg path {
+  stroke: #ffc700 !important;
+}
+
+.pagination-arrow-container {
+  display: flex;
+  align-items: center;
+}

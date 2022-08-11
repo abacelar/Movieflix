@@ -1,20 +1,24 @@
-import { Movie } from "../../types/movie";
+import { Movie } from '../../types/movie';
 
-
-
+import './styles.css'
 
 type Props = {
-    movie: Movie;
-}
+  movie: Movie;
+};
 
+const MovieCard = ({ movie }: Props) => {
+  return (
+    <div className="base-card movie-card-container">
 
-const MovieCard = ( {movie} : Props ) => {
+            <img src={movie.imgUrl} alt={movie.title} />
 
-    return (
+        <div className="movie-card-detail-container">
+      <h4>{movie.title}</h4>
+      <h5>{movie.year}</h5>
+      <p>{movie.subTitle}</p>
+      </div>
+    </div>
+  );
+};
 
-       <p>{movie.title}</p>
-
-    )
-}
-
-export default MovieCard
+export default MovieCard;
